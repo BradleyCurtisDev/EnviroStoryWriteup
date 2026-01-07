@@ -39,3 +39,9 @@ vision, professional practice and optimization.
 • Evidence Examples: Before and after screenshots / gifs, Annotations on design choices, narrative
 justification, Industry alignment considerations, project timeline considerations, accessibility
 considerations etc.
+
+
+
+## Links
+
+- https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/
