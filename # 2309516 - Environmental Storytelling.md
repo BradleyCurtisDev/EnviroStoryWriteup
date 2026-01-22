@@ -6,14 +6,17 @@
 
 
 ### Concept & Inspiration
-"Where did your ideas come from?"
+
 
 *   **Mood Boards**:
-    *   [Insert description of your PureRef board or initial inspiration]
-    *   ![Screenshot of PureRef Mood Board]
+    *   As a group we put together a Figma board which has mood boards for the factory environment, UI elements such as widgets and fonts within the original game and a storyboard of how we wanted the initial cutscene to play out. 
+    *   [Link to Figma board](https://www.figma.com/board/1UYfQkvr74c0H5pE9FhWsr/Environmental-Storytelling?node-id=0-1&t=lBZoQASadgRYAqbQ-1)
+
+    ![Image of Figma board](FigmaBoard.png)
+
 *   **Genre Analysis**:
-    *   Investigated "Environmental Storytelling" in games like *Gone Home*, *What Remains of Edith Finch*, or *Control*.
-    *   Analyzed how they use lighting and object placement to narrate without words.
+    *   At the start of the first week we each took time to look at how environments tell stories within existing games to try and emulate a similar feeling. Games that came to mind were *Control* and *What remains of Edith Finch*. 
+    *   In Control the environment is used to build a sense of corporate dread and surrealism through scattered memos and office layouts that feel both mundane and impossible. You might find a simple sticky note that reveals a terrifying supernatural containment failure which makes the cold concrete hallways feel alive and dangerous. On the other hand Edith Finch uses every inch of the family house to tell a more intimate and personal history. Each bedroom is a time capsule tailored to a specific character where the posters on the walls and the clutter on the floor explain who they were without ever needing a line of dialogue. While Control uses the world to explain its complex lore and mechanics Edith Finch uses it to create an emotional connection to a family that is already gone.
 *   **Mechanic Research**:
     *   Researched scanning mechanics in other games (e.g., *Death Stranding*, *No Man's Sky*).
     *   Reference link: [Scanning Ability in 10 Minutes](https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/)
@@ -108,6 +111,10 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
         *   **Logic**: On `Construct`, a Timer is set to fire every 3 seconds.
         *   **Randomization**: The `CycleConceptArt` event picks a random texture from an `ImageArray` and updates the background image (`SetBrushFromTexture`). This showcases the team's concept art alongside their names.
     *   **Navigation**: A simple "Back" button allows the player to close the credits via `RemoveFromParent`, returning them to the main menu.
+
+    ![Credits Screen Blueprint](CreditsBlueprint.png)
+
+    ![Credits Screen](Credits.png)
 
 
 ## Connecting (Collaboration)
