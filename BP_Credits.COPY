@@ -1,0 +1,1447 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="BP_Credits" ExportPath="/Script/UMGEditor.WidgetBlueprint'/Game/Static/UI/BP_Credits.BP_Credits'"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Knot Name="K2Node_Knot_0" ExportPath="/Script/BlueprintGraph.K2Node_Knot'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Knot_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_PromotableOperator Name="K2Node_PromotableOperator_2" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_PromotableOperator_2'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_PromotableOperator Name="K2Node_PromotableOperator_1" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_PromotableOperator_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_6" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_6'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_3" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Event_3'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_8" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_8'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_7" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_7'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_5" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_5'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_3" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_3'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_0" ExportPath="/Script/BlueprintGraph.K2Node_ComponentBoundEvent'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_ComponentBoundEvent_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallArrayFunction Name="K2Node_CallArrayFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallArrayFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallArrayFunction_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_2" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_2'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_2" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_2'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CustomEvent Name="K2Node_CustomEvent_0" ExportPath="/Script/BlueprintGraph.K2Node_CustomEvent'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CustomEvent_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Event_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Event_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype="/Script/UMG.WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'" ExportPath="/Script/UMG.WidgetTree'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree'"
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_9" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_9'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_8" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_8'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_7" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_7'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_6" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_6'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_5" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_5'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_4" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_4'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_3" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_3'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_287" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_287'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_2" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_2'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer_10" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_10'"
+      End Object
+      Begin Object Class=/Script/UMG.Spacer Name="Spacer" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_9" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_9'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_82" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_82'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_8" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_8'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_7" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_7'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_6" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_6'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_5" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_5'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_43" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_43'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_42" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_42'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_41" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_41'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_40" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_40'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_4" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_4'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_39" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_39'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_38" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_38'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_37" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_37'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_36" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_36'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_35" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_35'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_34" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_34'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_33" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_33'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_32" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_32'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_31" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_31'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_30" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_30'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_3" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_3'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_29" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_29'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_28" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_28'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_27" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_27'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_26" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_26'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_25" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_25'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_24" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_24'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_23" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_23'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_22" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_22'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_21" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_21'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_20" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_20'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_2" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_2'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_19" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_19'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_18" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_18'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_17" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_17'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_16" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_16'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_15" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_15'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_14" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_14'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_13" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_13'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_12" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_12'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_11" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_11'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_10" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_10'"
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox_1" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_1'"
+      End Object
+      Begin Object Class=/Script/UMG.VerticalBox Name="VerticalBox_90" ExportPath="/Script/UMG.VerticalBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90'"
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_44" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_44'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_43" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_43'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_42" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_42'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_41" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_41'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_40" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_40'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_39" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_39'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_24" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_24'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_2" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_2'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_23" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_23'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_45" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_45'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_9" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_9'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_14" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_14'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_0'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_13" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_13'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_12" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_12'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_10" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_10'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_8" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_8'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_59" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_59'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_58" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_58'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_57" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_57'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_55" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_55'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_7" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_7'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_54" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_54'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_53" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_53'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_52" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_52'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_51" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_51'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_50" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_50'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_49" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_49'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_48" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_48'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_47" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_47'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_38" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_38'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_37" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_37'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_6" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_6'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_36" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_36'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_35" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_35'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_34" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_34'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_33" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_33'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_32" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_32'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_31" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_31'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_30" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_30'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_29" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_29'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_28" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_28'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_27" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_27'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_5" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_5'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_26" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_26'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_25" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_25'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_22" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_22'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_21" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_21'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_20" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_20'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_19" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_19'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_18" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_18'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_17" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_17'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_16" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_16'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_15" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_15'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_4" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_4'"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_1" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_1'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.EditableTextBox Name="EditableTextBox" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox'"
+      End Object
+      Begin Object Class=/Script/UMG.Overlay Name="Overlay_122" ExportPath="/Script/UMG.Overlay'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Overlay_122'"
+         Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_5" ExportPath="/Script/UMG.OverlaySlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Overlay_122.OverlaySlot_5'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="ImageBack" ExportPath="/Script/UMG.Image'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.ImageBack'"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_137" ExportPath="/Script/UMG.TextBlock'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.TextBlock_137'"
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_28" ExportPath="/Script/UMG.CanvasPanel'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28'"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28.CanvasPanelSlot_1'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28.CanvasPanelSlot_0'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_4" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28.CanvasPanelSlot_4'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_57" ExportPath="/Script/UMG.Button'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Button_57'"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0" ExportPath="/Script/UMG.ButtonSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Button_57.ButtonSlot_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.ScrollBox Name="ScrollBox" ExportPath="/Script/UMG.ScrollBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.ScrollBox'"
+         Begin Object Class=/Script/UMG.ScrollBoxSlot Name="ScrollBoxSlot_0" ExportPath="/Script/UMG.ScrollBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.ScrollBox.ScrollBoxSlot_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_307" ExportPath="/Script/UMG.SizeBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.SizeBox_307'"
+         Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath="/Script/UMG.SizeBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.SizeBox_307.SizeBoxSlot_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_120" ExportPath="/Script/UMG.Border'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Border_120'"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0" ExportPath="/Script/UMG.BorderSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Border_120.BorderSlot_0'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Tick" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:Tick'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:Tick.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame Name="K2Node_SetVariableOnPersistentFrame_0" ExportPath="/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame'/Game/Static/UI/BP_Credits.BP_Credits:Tick.K2Node_SetVariableOnPersistentFrame_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:Tick.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="CycleConceptArt" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:CycleConceptArt'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:CycleConceptArt.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:CycleConceptArt.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Construct" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:Construct'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:Construct.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:Construct.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph'"
+      Begin Object Name="K2Node_Knot_0" ExportPath="/Script/BlueprintGraph.K2Node_Knot'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Knot_0'"
+         NodePosX=1456
+         NodePosY=640
+         NodeGuid=B3AD09BC40E7215D0211888C93FFD7E5
+         CustomProperties Pin (PinId=ABF9E28742E41BED5B3703A65B21C217,PinName="InputPin",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_5 DB4D2EFF42F8A3C7FD72C3A6A512135C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=True,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=86275F2842C9CEECAB4E2BBEE0ABD443,PinName="OutputPin",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_8 87FB694E491B07856BB81AA259285129,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_PromotableOperator_2" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_PromotableOperator_2'"
+         OperationName="Add"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="Add_DoubleDouble")
+         NodePosX=1264
+         NodePosY=352
+         NodeGuid=4A14C76F47B4478994DE208C556F4452
+         CustomProperties Pin (PinId=92F75BB7441AB9EFCD5AA3A201A17917,PinName="A",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_PromotableOperator_1 B1FAC8794EC3E9C7E88B939239E12347,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B53B20FD450D704547D1319523D825EA,PinName="B",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_7 EB31AF1D463520EF9F812BB933B13272,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F433CD664F37BB3626DB70B578F86D2A,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_8 A363F4CB40FCA0C03B8CA698AE842013,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_PromotableOperator_1" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_PromotableOperator_1'"
+         OperationName="Multiply"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="Multiply_DoubleDouble")
+         NodePosX=992
+         NodePosY=304
+         NodeGuid=523E55B34F8FB51D12E250A3E023AA54
+         CustomProperties Pin (PinId=EA7C256349E32D0B96FE4DB96B219862,PinName="A",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Event_3 7B8BECA0424282EA725F39B49CF62A39,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0A13E9A04EA53881B9371E9052D14807,PinName="B",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_6 21C1D2B240475EB38704D3B5BD348609,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B1FAC8794EC3E9C7E88B939239E12347,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_PromotableOperator_2 92F75BB7441AB9EFCD5AA3A201A17917,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_6" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_6'"
+         VariableReference=(MemberName="ScrollSpeed",MemberGuid=DB2C773E4787940AA8C398A919AC4A53,bSelfContext=True)
+         NodePosX=816
+         NodePosY=384
+         NodeGuid=EB6E2D3343B678CAED69A3861FBD66C9
+         CustomProperties Pin (PinId=21C1D2B240475EB38704D3B5BD348609,PinName="ScrollSpeed",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_PromotableOperator_1 0A13E9A04EA53881B9371E9052D14807,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E22742E144BDB43FD9F881A281E4E4D2,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_3" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Event_3'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick")
+         bOverrideFunction=True
+         NodePosX=752
+         NodePosY=224
+         NodeGuid=E6AE9ABF4536454E20BEB298D1FC08BF
+         CustomProperties Pin (PinId=0BB43B3945F2C3B3357F34823157FE5E,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6F9475424D2B6680B3411D87C0616B06,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_8 64C8C7154E0153946F8568B8A3F04DE5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EBC700E0411C5876AC0739BF5AA9DCB4,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/SlateCore.Geometry'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7B8BECA0424282EA725F39B49CF62A39,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat (single-precision)\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_PromotableOperator_1 EA7C256349E32D0B96FE4DB96B219862,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_8" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_8'"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",MemberName="SetScrollOffset")
+         NodePosX=1568
+         NodePosY=208
+         NodeGuid=8C160D6C40B1208ECD06769C2824552C
+         CustomProperties Pin (PinId=64C8C7154E0153946F8568B8A3F04DE5,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Event_3 6F9475424D2B6680B3411D87C0616B06,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FDAB75B541424CC65AAA538B342B0AB3,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=87FB694E491B07856BB81AA259285129,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Knot_0 86275F2842C9CEECAB4E2BBEE0ABD443,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A363F4CB40FCA0C03B8CA698AE842013,PinName="NewScrollOffset",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_PromotableOperator_2 F433CD664F37BB3626DB70B578F86D2A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_7" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_7'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",MemberName="GetScrollOffset")
+         NodePosX=960
+         NodePosY=496
+         NodeGuid=4A7CDEFB463DDE7F416EDFB196684971
+         CustomProperties Pin (PinId=0A837274404C5AE0D119C4A10571AE08,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_5 DB4D2EFF42F8A3C7FD72C3A6A512135C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EB31AF1D463520EF9F812BB933B13272,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_PromotableOperator_2 B53B20FD450D704547D1319523D825EA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_5" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_5'"
+         VariableReference=(MemberName="ScrollBox",MemberGuid=EC4B12184E1BE12ACF39C58AF019EDAC,bSelfContext=True)
+         NodePosX=752
+         NodePosY=631
+         NodeGuid=B0E227994ECEBB3D139CEC8AB22993FF
+         CustomProperties Pin (PinId=DB4D2EFF42F8A3C7FD72C3A6A512135C,PinName="ScrollBox",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_7 0A837274404C5AE0D119C4A10571AE08,K2Node_Knot_0 ABF9E28742E41BED5B3703A65B21C217,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6B77260443BFF613D08DBA9C50D20C4A,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_3" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_3'"
+         FunctionReference=(MemberName="RemoveFromParent",bSelfContext=True)
+         NodePosX=320
+         NodePosY=976
+         NodeGuid=BDB9ACCE4E660083EFA97B8BE369D052
+         CustomProperties Pin (PinId=09A9CC29467D0C757EA7E6BD5BC4A206,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_ComponentBoundEvent_0 CAEF7FA34A97CEF2998E68AF3220E3E0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E18DEFE24B54DAB5770F0796B67A6C93,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3FA4C3E548B93E795EEF628AE7258424,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.Widget'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_0" ExportPath="/Script/BlueprintGraph.K2Node_ComponentBoundEvent'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_ComponentBoundEvent_0'"
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass="/Script/CoreUObject.Class'/Script/UMG.Button'"
+         ComponentPropertyName="Button_57"
+         EventReference=(MemberParent="/Script/CoreUObject.Package'/Script/UMG'",MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+         NodePosY=992
+         NodeGuid=4A60573849E6D62FDB6FB2ABF7CB0092
+         CustomProperties Pin (PinId=132F60D54BC4FC352ED1B4913AA1DCC1,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.BP_Credits_C'",MemberName="BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CAEF7FA34A97CEF2998E68AF3220E3E0,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_3 09A9CC29467D0C757EA7E6BD5BC4A206,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallArrayFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallArrayFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallArrayFunction_0'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetArrayLibrary'",MemberName="Array_Random")
+         NodePosX=144
+         NodePosY=720
+         NodeGuid=059C6C1D4DFD734E61FEBE9B909D3F82
+         CustomProperties Pin (PinId=C06D66CC4FEDBEEB6118CCAD4A014EF8,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetArrayLibrary'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__KismetArrayLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=49C6AAE94CDCD7B49C872FB5B987684E,PinName="TargetArray",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Texture2D'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=Array,PinType.bIsReference=True,PinType.bIsConst=True,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_2 6911A2D241544A0992B970A8B03EE3A0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=True,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=250035BD42826B52D91EC7B9CCA4E365,PinName="OutItem",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Texture2D'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_2 5223E3A1465B56FC48BDF59C5F9FE993,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1F9F651F4B36C4B4C2C735990DC918ED,PinName="OutIndex",Direction="EGPD_Output",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_2" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_2'"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.Image'",MemberName="SetBrushFromTexture")
+         NodePosX=384
+         NodePosY=528
+         NodeGuid=BE1B932E493CFB035705AFB3602C6E64
+         CustomProperties Pin (PinId=5F48C9634B747F5CB49800AE6672D86C,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CustomEvent_0 88CD31824EAA108D7A401892A6687C6A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8E1438EF47790DDD8E566190D576E27E,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5DC2A93E4385981E65A136942E22FE45,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.Image'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_1 FA4C01A745A84561B4A176AE4C9B8DB0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5223E3A1465B56FC48BDF59C5F9FE993,PinName="Texture",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Texture2D'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallArrayFunction_0 250035BD42826B52D91EC7B9CCA4E365,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=93532F0F4580D8D703853E977FCD8D30,PinName="bMatchSize",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_2" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_2'"
+         VariableReference=(MemberName="ImageArray",MemberGuid=43D370AD4AEC97D35CEBDA8BCB970E6A,bSelfContext=True)
+         NodePosY=739
+         NodeGuid=F5A63D8845A3AA4F66F26E89DD9A413F
+         CustomProperties Pin (PinId=6911A2D241544A0992B970A8B03EE3A0,PinName="ImageArray",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Texture2D'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=Array,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallArrayFunction_0 49C6AAE94CDCD7B49C872FB5B987684E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=24261BE943D0524AEB291BAFF19A38A1,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_VariableGet_1'"
+         VariableReference=(MemberName="ImageBack",MemberGuid=E36A58864C6E838E7882DE972FECC23F,bSelfContext=True)
+         NodePosX=208
+         NodePosY=656
+         NodeGuid=1DA26EF84DDE86768C335691A83ACB6B
+         CustomProperties Pin (PinId=FA4C01A745A84561B4A176AE4C9B8DB0,PinName="ImageBack",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.Image'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_2 5DC2A93E4385981E65A136942E22FE45,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4C66A963401612A3BF17109F97166242,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CustomEvent_0" ExportPath="/Script/BlueprintGraph.K2Node_CustomEvent'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CustomEvent_0'"
+         CustomFunctionName="CycleConceptArt"
+         NodePosX=16
+         NodePosY=528
+         NodeGuid=56651EB244ACC3DB233A2586384516BC
+         CustomProperties Pin (PinId=01EB1759463950B4559AAF9CB8778596,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.BP_Credits_C'",MemberName="CycleConceptArt",MemberGuid=56651EB244ACC3DB233A2586384516BC),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 EC6897D74044726DDE75D5BB1771FADE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=88CD31824EAA108D7A401892A6687C6A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_2 5F48C9634B747F5CB49800AE6672D86C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_1" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_CallFunction_1'"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",MemberName="K2_SetTimerDelegate")
+         NodePosX=320
+         NodePosY=208
+         AdvancedPinDisplay=Hidden
+         NodeGuid=B542F05743DB2A777CF3CFADF347BE5A
+         CustomProperties Pin (PinId=904E265E4D7EA4417D55CBA1A62EADF1,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Event_1 02C10A794B424F52172CE388C05D9632,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A30D9E8D4850E257C6A506ACB95F0B6B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B85EE1EF4B0552B9CFD835BA7731661D,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__KismetSystemLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EC6897D74044726DDE75D5BB1771FADE,PinName="Delegate",PinFriendlyName=INVTEXT("Event"),PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Package'/Script/Engine'",MemberName="TimerDynamicDelegate__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CustomEvent_0 01EB1759463950B4559AAF9CB8778596,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A1ECC298459ADDDD5D90A1BEB8C8BD7E,PinName="Time",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="3.000000",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=416853AB4A12C4AB32F885A0514182B8,PinName="bLooping",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="true",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1BDA0FF44500EAC8381F838127340DD4,PinName="bMaxOncePerFrame",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1DD374464BFC383726140D8E1EF45010,PinName="InitialStartDelay",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.000000",AutogeneratedDefaultValue="0.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F44DAD614E4E17F6254A67B7DB2C7D00,PinName="InitialStartDelayVariance",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.000000",AutogeneratedDefaultValue="0.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CF03DA814FF6DC9B7D3F1CAC8E98605B,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.TimerHandle'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Event_1'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=208
+         bCommentBubblePinned=True
+         NodeGuid=FB585E004432F71FE88F2CA37BE8B0D5
+         CustomProperties Pin (PinId=9427D23D43487B029786DDA72687A071,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=02C10A794B424F52172CE388C05D9632,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 904E265E4D7EA4417D55CBA1A62EADF1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Static/UI/BP_Credits.BP_Credits:EventGraph.K2Node_Event_0'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=A5F9839C4B4849B6CF377592497B90F8
+         CustomProperties Pin (PinId=2D8A461147BFDE6153D8FEB330DCAFB7,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E6EE7C664B1C579A44CC85988CACD70B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B7FB4025440777FB7727EC83A1D02613,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_1'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_1'"
+      Nodes(3)="/Script/BlueprintGraph.K2Node_CustomEvent'K2Node_CustomEvent_0'"
+      Nodes(4)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_1'"
+      Nodes(5)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_2'"
+      Nodes(6)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_2'"
+      Nodes(7)="/Script/BlueprintGraph.K2Node_CallArrayFunction'K2Node_CallArrayFunction_0'"
+      Nodes(8)="/Script/BlueprintGraph.K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_0'"
+      Nodes(9)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_3'"
+      Nodes(10)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_5'"
+      Nodes(11)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_7'"
+      Nodes(12)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_8'"
+      Nodes(13)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_3'"
+      Nodes(14)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_6'"
+      Nodes(15)="/Script/BlueprintGraph.K2Node_PromotableOperator'K2Node_PromotableOperator_1'"
+      Nodes(16)="/Script/BlueprintGraph.K2Node_PromotableOperator'K2Node_PromotableOperator_2'"
+      Nodes(17)="/Script/BlueprintGraph.K2Node_Knot'K2Node_Knot_0'"
+      bAllowDeletion=False
+      GraphGuid=FA4528AF45AA8727A8C5FB9231224B1C
+   End Object
+   Begin Object Name="WidgetTree" ExportPath="/Script/UMG.WidgetTree'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree'"
+      Begin Object Name="Spacer_9" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_9'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_8" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_8'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_7" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_7'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_6" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_6'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_5" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_5'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_4" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_4'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_3" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_3'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_287" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_287'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_2" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_2'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer_10" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer_10'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="Spacer" ExportPath="/Script/UMG.Spacer'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Spacer'"
+         Size=(X=1.551719,Y=63.526115)
+      End Object
+      Begin Object Name="EditableTextBox_9" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_9'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "2F2B56AC4501C547437F01B09188C1F3", "Anette")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_82" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_82'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "2657E83E4B070DD608ACDFB904EC367E", "Project Coordinator")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_8" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_8'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "5ED397234092E1D750D0E5BB9798265C", "Rish")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_7" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_7'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "A211C19B4577C20257A3B49BE2CDB65E", "Isabelle")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_6" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_6'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "057D9DFD48CA47DDBE1D149EAB7875F7", "Liam")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_5" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_5'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "6A44779747D3373E8F5CB4B0B16CCC8A", "Level Designer / Set Dresser")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_43" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_43'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "403A2A504A3B4A404430F0A4C0B96286", "3D Prop Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_42" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_42'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "01EB27C14060F999FF6C38ACA89EAA44", "Narrative Programmer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_41" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_41'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "7F8DB7D94076A9F43C972C92604FF4A7", "UI Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_40" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_40'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "9640D7DB4F1F0B09A7A845963F613802", "Narrative Mission Designer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_4" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_4'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "CD9D00844C5091B85384D2B2F864144C", "Technical Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_39" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_39'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "907EF6074CCF8270C90785B80ABC9286", "Concept Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_38" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_38'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "AFB8726247315556D6C8669E9F85520B", "Storyboard Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_37" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_37'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "BB3D9ACA41483E0AADCC3EB5FABF78F2", "Gameplay Programmer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_36" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_36'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "CECCD0DA493393D0016F25B5DC576681", "Level Design")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_35" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_35'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "F61032DE413F32CA794904812B13351F", "Interaction Programmer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_34" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_34'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "731CE24F48C5D1380C457D98A88B43E5", "Level Design")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_33" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_33'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "B555D6274CFF94005AC6C088C1F56390", "Environment Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_32" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_32'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "7FA03D2349091E1012795988E8EEECAE", "2D Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_31" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_31'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "9B078ADB40116FE9CA34A08DEFB57E82", "Environment Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_30" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_30'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "BE66539E4CC5356644B1C8A04EB92A7D", "Storyboard Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_3" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_3'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "EFA586554DC271681D1F7D83F8864E00", "Interaction Programmer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_29" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_29'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "A811BBEA4E17781F5DA7E8A16CF049CF", "Environment Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_28" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_28'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "248C847A422992FF91449EB05146C903", "3D Prop Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_27" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_27'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "438BA4B54F878A475ECAEEB4F3FBD96C", "Audio Designer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_26" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_26'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "A79E82CD4B947B7D91115CB7B4F457C4", "Material Lighting Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_25" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_25'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "23CE080146021F25BCD09FB2FFB0405D", "Narrative Mission Designer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_24" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_24'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "28C6C31D4C61FF8C16DCCB8920B2AA63", "Level Design")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_23" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_23'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "CD9D00844C5091B85384D2B2F864144C", "Technical Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_22" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_22'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "034C123E4AF44FC58504ADA84B033A29", "2D Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_21" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_21'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "8431F8324950CC46877E818F52001E47", "Audio Design")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_20" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_20'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "05E56D524B54AAB7EE605FA6A6B94D38", "Game Animation")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_2" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_2'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "C9A54DDC4EFB8AEFB5488B950CDEA893", "Bradley")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_19" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_19'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "098DD13F401AE0459642919FAD855785", "UI Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_18" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_18'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "DC63EAF1496BD124179F75B7D89A6974", "3D Prop Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_17" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_17'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "F4CC8FF346384DBA073BA7ACF1A30902", "Storyboard Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_16" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_16'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "F171D9C44FCD40BED067A58C3CC2D38A", "Environment Artist")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_15" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_15'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "7B15FABE41895930A4A222AC6715BCCE", "Tiago")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_14" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_14'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "FA36B04240D28F60ABFE65934EBE30A7", "Jake")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_13" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_13'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "1FAC858F496398F28D924AAA4B08E645", "Eric")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_12" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_12'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "B24B691B41886001121FFE87F04A3195", "Carciley")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_11" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_11'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "95B87D48476BECAFFA52E381604C2526", "Frank")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_10" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_10'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "4D9F203048C12FDA5DB5CE8ADC74E716", "Leighton")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="EditableTextBox_1" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox_1'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "97ED9A204C93DE3BEC59BAA5B46C5936", "Gameplay Programmer")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default")),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="VerticalBox_90" ExportPath="/Script/UMG.VerticalBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90'"
+         Begin Object Name="VerticalBoxSlot_44" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_44'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_9'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_43" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_43'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_8'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_42" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_42'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_7'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_41" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_41'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_6'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_40" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_40'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_5'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_39" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_39'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_4'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_24" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_24'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_3'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_2" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_2'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_287'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_23" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_23'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_2'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_45" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_45'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer_10'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_9" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_9'"
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.Spacer'BP_Credits:WidgetTree.Spacer'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_14" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_14'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_9'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_0" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_0'"
+            Size=(Value=0.300000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_82'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_13" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_13'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_8'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_12" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_12'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_7'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_10" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_10'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_6'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_8" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_8'"
+            Size=(Value=0.300000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_5'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_59" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_59'"
+            Size=(Value=0.300000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_43'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_58" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_58'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_42'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_57" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_57'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_41'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_55" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_55'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_40'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_7" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_7'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_4'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_54" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_54'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_39'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_53" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_53'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_38'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_52" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_52'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_37'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_51" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_51'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_36'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_50" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_50'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_35'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_49" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_49'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_34'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_48" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_48'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_33'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_47" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_47'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_32'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_38" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_38'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_31'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_37" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_37'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_30'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_6" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_6'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_3'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_36" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_36'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_29'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_35" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_35'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_28'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_34" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_34'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_27'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_33" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_33'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_26'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_32" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_32'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_25'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_31" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_31'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_24'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_30" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_30'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_23'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_29" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_29'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_22'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_28" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_28'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_21'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_27" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_27'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_20'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_5" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_5'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_2'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_26" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_26'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_19'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_25" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_25'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_18'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_22" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_22'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_17'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_21" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_21'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_16'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_20" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_20'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_15'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_19" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_19'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_14'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_18" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_18'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_13'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_17" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_17'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_12'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_16" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_16'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_11'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_15" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_15'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_10'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_4" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_4'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox_1'"
+         End Object
+         Begin Object Name="VerticalBoxSlot_1" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.VerticalBox_90.VerticalBoxSlot_1'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+            Content="/Script/UMG.EditableTextBox'BP_Credits:WidgetTree.EditableTextBox'"
+         End Object
+         Slots(0)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_1'"
+         Slots(1)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_0'"
+         Slots(2)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_8'"
+         Slots(3)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_59'"
+         Slots(4)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_2'"
+         Slots(5)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_5'"
+         Slots(6)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_4'"
+         Slots(7)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_6'"
+         Slots(8)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_7'"
+         Slots(9)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_9'"
+         Slots(10)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_10'"
+         Slots(11)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_21'"
+         Slots(12)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_33'"
+         Slots(13)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_34'"
+         Slots(14)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_23'"
+         Slots(15)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_12'"
+         Slots(16)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_22'"
+         Slots(17)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_35'"
+         Slots(18)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_36'"
+         Slots(19)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_24'"
+         Slots(20)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_13'"
+         Slots(21)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_25'"
+         Slots(22)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_37'"
+         Slots(23)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_38'"
+         Slots(24)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_39'"
+         Slots(25)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_14'"
+         Slots(26)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_26'"
+         Slots(27)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_47'"
+         Slots(28)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_48'"
+         Slots(29)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_40'"
+         Slots(30)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_15'"
+         Slots(31)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_27'"
+         Slots(32)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_49'"
+         Slots(33)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_50'"
+         Slots(34)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_41'"
+         Slots(35)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_16'"
+         Slots(36)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_28'"
+         Slots(37)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_51'"
+         Slots(38)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_52'"
+         Slots(39)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_42'"
+         Slots(40)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_17'"
+         Slots(41)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_29'"
+         Slots(42)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_53'"
+         Slots(43)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_54'"
+         Slots(44)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_43'"
+         Slots(45)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_18'"
+         Slots(46)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_30'"
+         Slots(47)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_55'"
+         Slots(48)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_44'"
+         Slots(49)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_19'"
+         Slots(50)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_31'"
+         Slots(51)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_45'"
+         Slots(52)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_20'"
+         Slots(53)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_32'"
+         Slots(54)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_57'"
+         Slots(55)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_58'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="EditableTextBox" ExportPath="/Script/UMG.EditableTextBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.EditableTextBox'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "14E615F34623B7DC18C3B2A8DCDF1688", "Murilo")
+         WidgetStyle=(TextStyle=(Font=(FontObject="/Script/Engine.Font'/Game/Static/UI/Fonts/thin_UI_Font.thin_UI_Font'",TypefaceFontName="Default",Size=30.000000)),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ColorUseRule=UseColor_Specified),BackgroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ReadOnlyForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified),FocusedForegroundColor=(SpecifiedColor=(R=1.000000,G=0.000000,B=1.000000,A=0.000000),ColorUseRule=UseColor_Specified))
+         bIsVariable=False
+      End Object
+      Begin Object Name="Overlay_122" ExportPath="/Script/UMG.Overlay'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Overlay_122'"
+         Begin Object Name="OverlaySlot_5" ExportPath="/Script/UMG.OverlaySlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Overlay_122.OverlaySlot_5'"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.Overlay'BP_Credits:WidgetTree.Overlay_122'"
+            Content="/Script/UMG.SizeBox'BP_Credits:WidgetTree.SizeBox_307'"
+         End Object
+         Slots(0)="/Script/UMG.OverlaySlot'OverlaySlot_5'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="ImageBack" ExportPath="/Script/UMG.Image'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.ImageBack'"
+         Brush=(TintColor=(SpecifiedColor=(R=0.303820,G=0.303820,B=0.303820,A=1.000000),ColorUseRule=UseColor_Foreground),ImageType=FullColor,ImageSize=(X=3636.000000,Y=2515.000000),ResourceObject="/Script/Engine.Texture2D'/Game/Static/UI/Images/Storyboard1.Storyboard1'")
+         ColorAndOpacity=(R=0.630208,G=0.630208,B=0.630208,A=1.000000)
+         DisplayLabel="ImageBack"
+      End Object
+      Begin Object Name="TextBlock_137" ExportPath="/Script/UMG.TextBlock'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.TextBlock_137'"
+         Text=NSLOCTEXT("[2FC2E81E0F5B48CCDF9EDA3AEFF591FD]", "5D88B57149E5B327F71FA0B82C8D5B96", "Back")
+      End Object
+      Begin Object Name="CanvasPanel_28" ExportPath="/Script/UMG.CanvasPanel'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28'"
+         Begin Object Name="CanvasPanelSlot_1" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28.CanvasPanelSlot_1'"
+            LayoutData=(Offsets=(Left=1.093079,Top=0.704468,Right=2.975961,Bottom=2.468445),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'BP_Credits:WidgetTree.CanvasPanel_28'"
+            Content="/Script/UMG.Overlay'BP_Credits:WidgetTree.Overlay_122'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_0" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28.CanvasPanelSlot_0'"
+            LayoutData=(Offsets=(Left=4.041092,Top=3.633270,Right=1.990891,Bottom=4.627228),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'BP_Credits:WidgetTree.CanvasPanel_28'"
+            Content="/Script/UMG.Image'BP_Credits:WidgetTree.ImageBack'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_4" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.CanvasPanel_28.CanvasPanelSlot_4'"
+            LayoutData=(Offsets=(Left=-68.960938,Top=-113.081055,Right=150.944397,Bottom=46.129173),Anchors=(Minimum=(X=0.500000,Y=1.000000),Maximum=(X=0.500000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'BP_Credits:WidgetTree.CanvasPanel_28'"
+            Content="/Script/UMG.Button'BP_Credits:WidgetTree.Button_57'"
+         End Object
+         Slots(0)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_0'"
+         Slots(1)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_1'"
+         Slots(2)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_4'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_57" ExportPath="/Script/UMG.Button'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Button_57'"
+         Begin Object Name="ButtonSlot_0" ExportPath="/Script/UMG.ButtonSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Button_57.ButtonSlot_0'"
+            Parent="/Script/UMG.Button'BP_Credits:WidgetTree.Button_57'"
+            Content="/Script/UMG.TextBlock'BP_Credits:WidgetTree.TextBlock_137'"
+         End Object
+         BackgroundColor=(R=0.000000,G=0.000000,B=0.000000,A=0.362318)
+         Slots(0)="/Script/UMG.ButtonSlot'ButtonSlot_0'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="ScrollBox" ExportPath="/Script/UMG.ScrollBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.ScrollBox'"
+         Begin Object Name="ScrollBoxSlot_0" ExportPath="/Script/UMG.ScrollBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.ScrollBox.ScrollBoxSlot_0'"
+            Parent="/Script/UMG.ScrollBox'BP_Credits:WidgetTree.ScrollBox'"
+            Content="/Script/UMG.VerticalBox'BP_Credits:WidgetTree.VerticalBox_90'"
+         End Object
+         ScrollBarVisibility=Hidden
+         Slots(0)="/Script/UMG.ScrollBoxSlot'ScrollBoxSlot_0'"
+         bIsVariable=True
+         bExpandedInDesigner=True
+         Clipping=ClipToBoundsAlways
+         DisplayLabel="ScrollBox"
+      End Object
+      Begin Object Name="SizeBox_307" ExportPath="/Script/UMG.SizeBox'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.SizeBox_307'"
+         Begin Object Name="SizeBoxSlot_0" ExportPath="/Script/UMG.SizeBoxSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.SizeBox_307.SizeBoxSlot_0'"
+            Padding=(Top=5.000000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent="/Script/UMG.SizeBox'BP_Credits:WidgetTree.SizeBox_307'"
+            Content="/Script/UMG.Border'BP_Credits:WidgetTree.Border_120'"
+         End Object
+         HeightOverride=683.087280
+         bOverride_HeightOverride=True
+         Slots(0)="/Script/UMG.SizeBoxSlot'SizeBoxSlot_0'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_120" ExportPath="/Script/UMG.Border'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Border_120'"
+         Begin Object Name="BorderSlot_0" ExportPath="/Script/UMG.BorderSlot'/Game/Static/UI/BP_Credits.BP_Credits:WidgetTree.Border_120.BorderSlot_0'"
+            Parent="/Script/UMG.Border'BP_Credits:WidgetTree.Border_120'"
+            Content="/Script/UMG.ScrollBox'BP_Credits:WidgetTree.ScrollBox'"
+         End Object
+         Background=(TintColor=(SpecifiedColor=(R=0.000000,G=0.000000,B=0.000000,A=0.400000)))
+         Slots(0)="/Script/UMG.BorderSlot'BorderSlot_0'"
+         bExpandedInDesigner=True
+      End Object
+      RootWidget="/Script/UMG.CanvasPanel'CanvasPanel_28'"
+      AllWidgets(0)="/Script/UMG.CanvasPanel'CanvasPanel_28'"
+      AllWidgets(1)="/Script/UMG.Image'ImageBack'"
+      AllWidgets(2)="/Script/UMG.Overlay'Overlay_122'"
+      AllWidgets(3)="/Script/UMG.SizeBox'SizeBox_307'"
+      AllWidgets(4)="/Script/UMG.Border'Border_120'"
+      AllWidgets(5)="/Script/UMG.ScrollBox'ScrollBox'"
+      AllWidgets(6)="/Script/UMG.VerticalBox'VerticalBox_90'"
+      AllWidgets(7)="/Script/UMG.EditableTextBox'EditableTextBox'"
+      AllWidgets(8)="/Script/UMG.EditableTextBox'EditableTextBox_82'"
+      AllWidgets(9)="/Script/UMG.EditableTextBox'EditableTextBox_5'"
+      AllWidgets(10)="/Script/UMG.EditableTextBox'EditableTextBox_43'"
+      AllWidgets(11)="/Script/UMG.Spacer'Spacer_287'"
+      AllWidgets(12)="/Script/UMG.EditableTextBox'EditableTextBox_2'"
+      AllWidgets(13)="/Script/UMG.EditableTextBox'EditableTextBox_1'"
+      AllWidgets(14)="/Script/UMG.EditableTextBox'EditableTextBox_3'"
+      AllWidgets(15)="/Script/UMG.EditableTextBox'EditableTextBox_4'"
+      AllWidgets(16)="/Script/UMG.Spacer'Spacer'"
+      AllWidgets(17)="/Script/UMG.EditableTextBox'EditableTextBox_6'"
+      AllWidgets(18)="/Script/UMG.EditableTextBox'EditableTextBox_16'"
+      AllWidgets(19)="/Script/UMG.EditableTextBox'EditableTextBox_26'"
+      AllWidgets(20)="/Script/UMG.EditableTextBox'EditableTextBox_27'"
+      AllWidgets(21)="/Script/UMG.Spacer'Spacer_2'"
+      AllWidgets(22)="/Script/UMG.EditableTextBox'EditableTextBox_7'"
+      AllWidgets(23)="/Script/UMG.EditableTextBox'EditableTextBox_17'"
+      AllWidgets(24)="/Script/UMG.EditableTextBox'EditableTextBox_28'"
+      AllWidgets(25)="/Script/UMG.EditableTextBox'EditableTextBox_29'"
+      AllWidgets(26)="/Script/UMG.Spacer'Spacer_3'"
+      AllWidgets(27)="/Script/UMG.EditableTextBox'EditableTextBox_8'"
+      AllWidgets(28)="/Script/UMG.EditableTextBox'EditableTextBox_18'"
+      AllWidgets(29)="/Script/UMG.EditableTextBox'EditableTextBox_30'"
+      AllWidgets(30)="/Script/UMG.EditableTextBox'EditableTextBox_31'"
+      AllWidgets(31)="/Script/UMG.Spacer'Spacer_4'"
+      AllWidgets(32)="/Script/UMG.EditableTextBox'EditableTextBox_9'"
+      AllWidgets(33)="/Script/UMG.EditableTextBox'EditableTextBox_19'"
+      AllWidgets(34)="/Script/UMG.EditableTextBox'EditableTextBox_32'"
+      AllWidgets(35)="/Script/UMG.EditableTextBox'EditableTextBox_33'"
+      AllWidgets(36)="/Script/UMG.Spacer'Spacer_5'"
+      AllWidgets(37)="/Script/UMG.EditableTextBox'EditableTextBox_10'"
+      AllWidgets(38)="/Script/UMG.EditableTextBox'EditableTextBox_20'"
+      AllWidgets(39)="/Script/UMG.EditableTextBox'EditableTextBox_34'"
+      AllWidgets(40)="/Script/UMG.EditableTextBox'EditableTextBox_35'"
+      AllWidgets(41)="/Script/UMG.Spacer'Spacer_6'"
+      AllWidgets(42)="/Script/UMG.EditableTextBox'EditableTextBox_11'"
+      AllWidgets(43)="/Script/UMG.EditableTextBox'EditableTextBox_21'"
+      AllWidgets(44)="/Script/UMG.EditableTextBox'EditableTextBox_36'"
+      AllWidgets(45)="/Script/UMG.EditableTextBox'EditableTextBox_37'"
+      AllWidgets(46)="/Script/UMG.Spacer'Spacer_7'"
+      AllWidgets(47)="/Script/UMG.EditableTextBox'EditableTextBox_12'"
+      AllWidgets(48)="/Script/UMG.EditableTextBox'EditableTextBox_22'"
+      AllWidgets(49)="/Script/UMG.EditableTextBox'EditableTextBox_38'"
+      AllWidgets(50)="/Script/UMG.EditableTextBox'EditableTextBox_39'"
+      AllWidgets(51)="/Script/UMG.Spacer'Spacer_8'"
+      AllWidgets(52)="/Script/UMG.EditableTextBox'EditableTextBox_13'"
+      AllWidgets(53)="/Script/UMG.EditableTextBox'EditableTextBox_23'"
+      AllWidgets(54)="/Script/UMG.EditableTextBox'EditableTextBox_40'"
+      AllWidgets(55)="/Script/UMG.Spacer'Spacer_9'"
+      AllWidgets(56)="/Script/UMG.EditableTextBox'EditableTextBox_14'"
+      AllWidgets(57)="/Script/UMG.EditableTextBox'EditableTextBox_24'"
+      AllWidgets(58)="/Script/UMG.Spacer'Spacer_10'"
+      AllWidgets(59)="/Script/UMG.EditableTextBox'EditableTextBox_15'"
+      AllWidgets(60)="/Script/UMG.EditableTextBox'EditableTextBox_25'"
+      AllWidgets(61)="/Script/UMG.EditableTextBox'EditableTextBox_41'"
+      AllWidgets(62)="/Script/UMG.EditableTextBox'EditableTextBox_42'"
+      AllWidgets(63)="/Script/UMG.Button'Button_57'"
+      AllWidgets(64)="/Script/UMG.TextBlock'TextBlock_137'"
+   End Object
+   Begin Object Name="Tick" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:Tick'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:Tick.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="Tick"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=4AED454AAF903DDAA570ADE6ED11D9FE
+         CustomProperties Pin (PinId=038415A14E10BA6FECD0F5866B142F0F,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 8897FB864502148D7B6560B1AF13BB15,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5468F71F445AF1874526FDAB8EC57A24,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/SlateCore.Geometry'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 A35AD2A0468AC8968008599D36C98331,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=30390989419D6A57FBA2F8A6CB559414,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat (single-precision)\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 85F7961F4F4AEFA41D63B6BB6755B051,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_SetVariableOnPersistentFrame_0" ExportPath="/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame'/Game/Static/UI/BP_Credits.BP_Credits:Tick.K2Node_SetVariableOnPersistentFrame_0'"
+         NodePosX=-1040
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=43C099CC7E773235B4E64518CA8A3E5A
+         CustomProperties Pin (PinId=8897FB864502148D7B6560B1AF13BB15,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 038415A14E10BA6FECD0F5866B142F0F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D7C7F76B4E87A4AF553F428AAA811361,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 9F4483004F2A6AC13E700B8468CE61BB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A35AD2A0468AC8968008599D36C98331,PinName="K2Node_Event_MyGeometry",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/SlateCore.Geometry'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 5468F71F445AF1874526FDAB8EC57A24,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=85F7961F4F4AEFA41D63B6BB6755B051,PinName="K2Node_Event_InDeltaTime",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 30390989419D6A57FBA2F8A6CB559414,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:Tick.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Credits",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=3ECF8EAD38C732BAA03EF3D7EB7BC869
+         CustomProperties Pin (PinId=9F4483004F2A6AC13E700B8468CE61BB,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 D7C7F76B4E87A4AF553F428AAA811361,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B027BA8C4E3A25882715E283A2DF4A52,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=319782214896D9E5EB3183A946626ED8,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.SKEL_BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=525F754249EB927BC2D10E84693E8B6D,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame'K2Node_SetVariableOnPersistentFrame_0'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=FCA3775E46D54B7C3D4B909A0C21B896
+   End Object
+   Begin Object Name="BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Package'/Script/UMG'",MemberName="OnButtonClickedEvent__DelegateSignature")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=18B8F0EAFD2A3CDB849B4D9F21F6F838
+         CustomProperties Pin (PinId=B6063DC54EC07E1114CB90B0FA044204,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 39369DA74A299596BD3BAB9AE2CC03E3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:BndEvt__BP_Credits_Button_57_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Credits",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=0D82719E7EFF33A8A55BE2976923CEB4
+         CustomProperties Pin (PinId=39369DA74A299596BD3BAB9AE2CC03E3,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 B6063DC54EC07E1114CB90B0FA044204,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=82DE17F44124BA8888DE9F8B9BB3916E,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D678C2A74BCF3D9B0C9DE3BEC1A62BA7,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.SKEL_BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2436BFDD4F315AAA8CD27A89F62A8DEC,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=25CDB250481D2448C734F082E33E7CD6
+   End Object
+   Begin Object Name="CycleConceptArt" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:CycleConceptArt'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:CycleConceptArt.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="CycleConceptArt"
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=46A580E0303C3BAF9084F68519D9C704
+         CustomProperties Pin (PinId=5597D8C147F7E041956E259204BF5B86,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 869F3DBE4CB1A59F8F0B53AAD8E3AB6E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:CycleConceptArt.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Credits",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=A954DBC8D6DD348DA0CB2E6B88F66CD3
+         CustomProperties Pin (PinId=869F3DBE4CB1A59F8F0B53AAD8E3AB6E,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 5597D8C147F7E041956E259204BF5B86,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5C9184014CAF9AFC47D1ADA3433C8A7B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=255044D14250E13F919469AF5CF43AFA,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.SKEL_BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3642A3C0403D74F4ED5B169E9A508FAA,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=DF1F6CF04019454FEA6D11B41BE1D721
+   End Object
+   Begin Object Name="Construct" ExportPath="/Script/Engine.EdGraph'/Game/Static/UI/BP_Credits.BP_Credits:Construct'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/UI/BP_Credits.BP_Credits:Construct.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="Construct"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=73FC9C3611DA32FE81976DFA60EC811B
+         CustomProperties Pin (PinId=57C7EDE148C1DC5DB0324E9A344E108E,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 1F287D9F401861D0AB038CA1C84C903B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Static/UI/BP_Credits.BP_Credits:Construct.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Credits",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=BBD119A4DB5D3CD9ACB2D12C2064CAC1
+         CustomProperties Pin (PinId=1F287D9F401861D0AB038CA1C84C903B,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 57C7EDE148C1DC5DB0324E9A344E108E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AD48057447774794244E2AA5F02B0304,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F7A8C6EE47AA8C606EC9008858CB14D8,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Static/UI/BP_Credits.SKEL_BP_Credits_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=04648AD14E14A949D1696D9923E95BEA,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=7CF82A7D44E386E5C5577AB0F6C2D752
+   End Object
+   WidgetVariableNameToGuidMap=(("CanvasPanel_28", 0F11C8B54E9CD468C28897B42B9EE1EF),("ImageBack", E36A58864C6E838E7882DE972FECC23F),("Overlay_122", C05669D04CDB0EB2529EC9A65BB2E64B),("Border_120", CA49FCF64F020DE5F19065920A410511),("ScrollBox", EC4B12184E1BE12ACF39C58AF019EDAC),("VerticalBox_90", EEB295974DAB6E9B9D84B5B405777DE6),("EditableTextBox_82", BA238A4C418D24ADF982938535771ECA),("EditableTextBox", 506C97E240E528CA53803FA962B739AF),("Spacer_287", 785838A040D37706D305659D3471EFB2),("EditableTextBox_1", 05E9B38A497E7405527589BEAACE7003),("EditableTextBox_2", 8FC75C6D44195F83DB0ADEBFBCC965B9),("EditableTextBox_3", 52E0F0F741E0DA287CB251B172C4F4F3),("EditableTextBox_4", 58EDD1E54E93401083CFC696CD12C75B),("EditableTextBox_5", DBD372E14FC508094430369500F686AE),("Spacer", 330DDADC4BE1198BD990D4AB576320C9),("EditableTextBox_6", 43919AFF445D3FC937AD80B68BCABED0),("Button_57", 4A7A46D84DF9CED1BA3CA5B3031CBE30),("TextBlock_137", 855B49D044A855FAEC4C85BDCDF0DA20),("EditableTextBox_32", 7F2797C3478A968C521EED91BB85226F),("EditableTextBox_7", DBE2A0C048C3FCCD149605905C7E25E4),("EditableTextBox_8", 6A17EC6D41F56F1B835871ABF381ECBF),("EditableTextBox_9", C0BE23B345A8CAE4D42AE6B5673406DF),("EditableTextBox_10", A994649B409CC6904D28C18260C8A1E7),("EditableTextBox_11", DD38088040C097640B4FCF8030959192),("EditableTextBox_12", 110CC98A4DE782521A5E5F93B07F9E41),("EditableTextBox_13", 0CB289FB47AD35C532F43DAE9AE503D9),("EditableTextBox_14", A97394844BF516B79A3DA28167294E6F),("EditableTextBox_15", 716234CA418BCADD2B850B86C57DD331),("SizeBox_307", 86692C8F40471F03653FEE8A176C85A7),("EditableTextBox_16", 90E61012409DC434633B85A789ACC6D0),("EditableTextBox_17", E4F68D2D45654B3F2A785AB1F10328E7),("Spacer_2", 9EEAE1ED412176AE881DA4A7CCBEA9BA),("Spacer_3", 9CB0A5824F1C2C73DBB01E8F6F7AB7CA),("EditableTextBox_18", 4E2576704836BE9687DA919E25457E47),("EditableTextBox_19", 28A64E354F348876098DE096A3EC1795),("EditableTextBox_20", 467CCDD941A41575F20BA7A87A8BFBBC),("EditableTextBox_21", E8E198B5430A69B4E34D95B1D9AEF2AC),("EditableTextBox_22", 7985A279403213401B4EE48AF1092850),("EditableTextBox_23", 256312124068F96DE057B6988E04ACBC),("EditableTextBox_24", BEB3DBF34B258B55D01B5797042AB5CD),("EditableTextBox_25", 611B7AB444AFB764D1EE299C2EE183F6),("EditableTextBox_26", 8C30229645EA46E5A0262A933A9E5B22),("EditableTextBox_27", 015A4D3F44B83DDEDEA6B4BE825D0305),("EditableTextBox_28", 9C8757B54C4BB415D25840B06D9960C4),("EditableTextBox_29", 5042F7EA48A7773E95495EA851BA4A8B),("EditableTextBox_30", 3F275E214863A64954B02583A0BDE812),("EditableTextBox_31", 4643EA5746A98A80DF9BD1823CBB8BED),("Spacer_4", 5074BD894D9E7CF2886DE08C379DE63F),("Spacer_5", E9318A314DDD744367EB509889B5678E),("Spacer_6", 108AEFB649E3D593D9D9019D96599687),("Spacer_7", 5779A1194AAEA258B2387FB22189017D),("Spacer_8", 84BD93FD484B8E4495C839B671B68B42),("Spacer_9", 8820151E48C45545C0A86595C1B4DE03),("Spacer_10", C0EB08534E82D502D7D09890C6A8CF21),("EditableTextBox_33", 92E406AE450C21105621E582DC6D0E5E),("EditableTextBox_34", 94AFB2554BD9139161B67591AFB519BD),("EditableTextBox_35", 227CCA8B49BE03CB3EA7CD9D20D208CB),("EditableTextBox_36", 4A0F7A944EC24324CD8B52980B98E36F),("EditableTextBox_37", 465B97D54051104EDC5DC3A9477B18DF),("EditableTextBox_38", 544A15324263ED80FBB259B5EFD6BE0D),("EditableTextBox_39", 4701A86B4C320ED2CEE39B912E21FC59),("EditableTextBox_40", F69B1FE347B4D28C44820D95C7D2F019),("EditableTextBox_41", CDA683C7406C97041FE5F6A150937676),("EditableTextBox_42", E85595784D60C511C27216A0E83CC528),("EditableTextBox_43", EF4E06404D64ACF2ECCE9F9E54A23411))
+   TickPrediction=WillTick
+   TickPredictionReason="Script"
+   ParentClass="/Script/CoreUObject.Class'/Script/UMG.UserWidget'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   NewVariables(0)=(VarName="ImageArray",VarGuid=43D370AD4AEC97D35CEBDA8BCB970E6A,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Texture2D'",ContainerType=Array),FriendlyName="Image Array",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   NewVariables(1)=(VarName="ScrollSpeed",VarGuid=DB2C773E4787940AA8C398A919AC4A53,VarType=(PinCategory="real",PinSubCategory="double"),FriendlyName="Scroll Speed",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   NewVariables(2)=(VarName="CurrentIndex",VarGuid=EA67EC2C496C3B24EBA994834652B877,VarType=(PinCategory="int"),FriendlyName="Current Index",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   GeneratedVariables(0)=(VarName="ScrollBox",VarGuid=EC4B12184E1BE12ACF39C58AF019EDAC,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.ScrollBox'"),FriendlyName="ScrollBox",PropertyFlags=562952101494812,MetaDataArray=((DataKey="Category",DataValue="BP_Credits")))
+   GeneratedVariables(1)=(VarName="ImageBack",VarGuid=E36A58864C6E838E7882DE972FECC23F,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.Image'"),FriendlyName="ImageBack",PropertyFlags=562952101494812,MetaDataArray=((DataKey="Category",DataValue="BP_Credits")))
+   GeneratedVariables(2)=(VarName="Button_57",VarGuid=4A7A46D84DF9CED1BA3CA5B3031CBE30,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.Button'"),FriendlyName="Button_57",PropertyFlags=562952101494812,MetaDataArray=((DataKey="Category",DataValue="BP_Credits")))
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="BP Credits"
+   CategorySorting(2)="Default"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Static/UI/BP_Credits.BP_Credits:EventGraph",SavedViewOffset=(X=-630.109619,Y=-186.802673),SavedZoomAmount=0.750000)
+   GeneratedClass="/Script/UMG.WidgetBlueprintGeneratedClass'BP_Credits_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=13A5714A43D70AC70BEBF3ACEB49043E
+End Object

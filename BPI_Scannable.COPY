@@ -1,0 +1,26 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BPI_Scannable" ExportPath="/Script/Engine.Blueprint'/Game/Static/Blueprints/BPI_Scannable.BPI_Scannable'"
+   Begin Object Class=/Script/Engine.EdGraph Name="OnScanned" ExportPath="/Script/Engine.EdGraph'/Game/Static/Blueprints/BPI_Scannable.BPI_Scannable:OnScanned'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/Blueprints/BPI_Scannable.BPI_Scannable:OnScanned.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Name="OnScanned" ExportPath="/Script/Engine.EdGraph'/Game/Static/Blueprints/BPI_Scannable.BPI_Scannable:OnScanned'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Static/Blueprints/BPI_Scannable.BPI_Scannable:OnScanned.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="OnScanned")
+         bIsEditable=True
+         NodeGuid=403AA1D54535B4AD75ED1D8765192E64
+         CustomProperties Pin (PinId=B6D0028D4E443E0CCC731EB93DEA399F,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      GraphGuid=345C683341FB6C15BAD394B282A26C82
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/CoreUObject.Interface'"
+   BlueprintType=BPTYPE_Interface
+   BlueprintSystemVersion=2
+   FunctionGraphs(0)="/Script/Engine.EdGraph'OnScanned'"
+   CategorySorting(0)=""
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BPI_Scannable_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=6D33D35D4E0EEA412E3A0291CAC31D11
+End Object
