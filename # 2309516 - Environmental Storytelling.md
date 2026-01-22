@@ -22,31 +22,41 @@
     *   ![Image of initial sketches or paper  prototype]
 
 
-
 ## Making (Production & Iteration)
 
 
-*   **Material Iteration**:
-    *   Refined the `M_Scan` material multiple times to get the right "pulse" speed and glow intensity.
-    *   ![Screenshot of an early version of the scan effect]
-
 The core mechanics of the environment were built to support the narrative of discovery and interaction with the abandoned facility. The technical implementation focused on a modular "Scanner" system and a series of interconnected puzzle elements.
 
-### 1. The Scanner Mechanic ("Seeing the Invisible")
+### 1. The Scanner Mechanic
 
-The primary tool for environmental storytelling is the Scanner, implemented in `BP_Scanner`. This blueprint manages both the visual effect and the gameplay interaction.
+The primary tool for navagating the environment is the Scanner. The scanner blueprint manages both the visual effect and the gameplay interaction.
 
 *   **Logic**: The scanning process is driven by a custom event `DoScan`, which plays the `ExpandScan` Timeline. This timeline controls the growth of the scan radius over time.
-    ![BP_Scanner Event Graph showing DoScan and Timeline node]
+
+![BP_Scanner](ScannerBlueprint.png)
+
+![BP_Scanner Timeline](ScannerTimeline.png)
+
 *   **Visuals**: The timeline updates the actor's scale (`SetActorScale3D`) to simulate the expanding wave. Simultaneously, it drives a Scalar Parameter `Scan_Opacity` on the material `M_Scan`. This material uses a Depth Fade and Emissive Color (`Scan_Glow`) to create the holographic, "x-ray" aesthetic that reveals hidden geometry.
-    ![Material Graph M_Scan showing Depth Fade and Opacity parameters]
+
+![M_Scan Material](M_Scan.png)
+
+
 *   **Interaction**: To detect objects, the scanner uses a `Sphere` component. On `OnComponentBeginOverlap`, it checks if the overlapping actor implements the `BPI_Scannable` interface. If it does, the `OnScanned` function is called on that actor, allowing for distinct behaviors for different object types without hard references.
 
-### 2. Interactive Objects (The Lever)
+### 2. Interactive Objects
 
-Interactive elements like the Lever (`BP_Lever`) heavily rely on the interface system to decouple them from the player or scanner logic.
+To bridge the gap between "looking" and "doing", I implemented a physics-based interaction system in `BP_ThirdPersonCharacter`. This allows the player to pick up specific objects such as the Levers and Tablets scattered around the environment.
 
+*   **Trace & Grab Mechanics**:
+    *   **Input**: The interaction is triggered by the `Left Mouse Button` 
+    *   **Detection**: A `LineTraceByChannel` is fired from the camera's center forward vector. This ensures the player picks up exactly what they are looking at.
+    *   **Physics Handle**: If the trace hits a valid physics object, the `PhysicsHandle` component is activated. `GrabComponentAtLocationWithRotation` attaches the object to the character's `HoldLocation` scene component.
+    *   **Tick Update**: In the `ReceiveTick` event, the system continuously updates the Physics Handle's target location (`SetTargetLocationAndRotation`) to match the `HoldLocation`. This creates a smooth, laggy "towing" effect where the object physically follows the player's view rather than snapping rigidly.
+
+    ![Third Person Character Interact](BP_ThirdPersonCharacterBlueprint.png)
 *   **Interface Implementation**: `BP_Lever` implements the `BPI_Scannable` interface.
+
 *   **Feedback**: When the `OnScanned` event is triggered by the scanner, the lever executes its specific feedback logic. In this case, it calls `SetOverlayMaterial` on its Static Mesh, applying `M_HighlightItem`. This visual cue immediately informs the player that the object is significant and interactive.
     ![BP_Lever Event Graph showing OnScanned event and SetOverlayMaterial]
 
@@ -58,14 +68,47 @@ Interactive elements like the Lever (`BP_Lever`) heavily rely on the interface s
 
 
 *   **The Generator (`BP_Generator`)**:
-    *   **Puzzle Logic**: The actor functions as a "counter" logic gate using a Trigger Volume. It casts overlapping actors to `BP_Box` and increments an integer `ItemsOnPad`.
-    *   **Visual Feedback**: To communicate progress without UI, the blueprint toggles the visibility of static mesh components (`Lever1`, `Lever2`, `Lever3`) as the count increases. This diegetic feedback confirms successful placement to the player.
-    *   **Consistency**: Like `BP_Lever`, the Generator implements `BPI_Scannable`. Its `OnScanned` event applies the same `M_HighlightItem` overlay, establishing a consistent visual language for interactable objects.
-    *   **Trigger**: When `ItemsOnPad >= TargetItems`, it executes the `StartRotation` event on the referenced `CraneActor`.
+    *   **Puzzle Logic**: The actor functions as a "counter" using a Trigger Volume. It casts overlapping actors to `BP_Lever` and increments an integer `ItemsOnPad`. Initially the generator started as a Pressure pad in which you put boxes onto but to better fit the theme of the environment I changed it to be levers that are replaces on a control panel which then allow the crane to function.
+
+    ![Generator Blueprint](GeneratorBlueprint.png)
+
+    ![Generator blueprint view](GeneratorBlueprintView.png)
+
+
+*   **Visual Feedback**: To communicate progress without UI, the blueprint toggles the visibility of static mesh components (`Lever1`, `Lever2`, `Lever3`) as the count increases. This diegetic feedback confirms successful placement to the player.
+
+    ![Generator with levers in](LeversInGenerator.png)
+
+*   **Consistency**: Like `BP_Lever`, the Generator implements `BPI_Scannable`. Its `OnScanned` event applies the same `M_HighlightItem` overlay, establishing a consistent visual language for interactable objects.
+
+
 *   **The Crane (`BP_Crane`)**:
-    *   The Crane serves as the reward state. Upon receiving the `StartRotation` call, it sets a boolean `bShouldMove`.
+    *   As soon as the generator has all three levers in place it will call the `StartRotation` event on the crane. Upon receiving the `StartRotation` call, it sets a boolean `bShouldMove`.
     *   **Interpolation**: In `ReceiveTick`, it uses `RInterpTo` (Rotation Interpolation) to smoothly rotate the arm towards `TargetRotation` at a defined speed. This avoids jarring "snapping" movement, preserving immersion.
-    ![BP_Crane Event Graph showing ReceiveTick and RInterpTo]
+    ![BP_Crane Event Graph showing ReceiveTick and RInterpTo](CraneBlueprint.png)
+
+### 4. UI 
+
+*   **New Area Popups**: In Stray, when the player enters a new area a popup will appear in which it has the areas name using the games unique font as well as an English translation below.
+
+    ![New Area Popup](StrayAreaPopup.jpg)
+    https://interfaceingame.com/screenshots/stray-new-zone/
+
+    ![Ingame Area Popup](FactoryFloor.png)
+    *   **Implementation**:
+        *   **Trigger (`BP_OfficeUI`)**: I created an actor that functions as a trigger. On `ReceiveActorBeginOverlap`, it checks if the overlapping actor is the player (`BP_ThirdPersonCharacter`). If confirmed, it creates the `WBP_Office` widget, adds it to the viewport, and immediately calls `DestroyActor` on itself. This ensures the popup only triggers once per playthrough.
+        *   **Widget Logic (`WBP_Office`)**: The widget handles its own lifecycle to keep the implementation clean.
+            *   **Construct**: When created, it enters a `Delay` of 5 seconds, keeping the text fully visible.
+            *   **Animation**: After the delay, it plays the `FadeOut` animation, which modulates the `RenderOpacity` from 1 to 0.
+            *   **Cleanup**: I used the `OnAnimationFinished` event to call `RemoveFromParent`, ensuring no invisible widgets remain in memory.
+
+*   **Credits Screen (`BP_Credits`)**:
+    *   **Auto-Scroll**: I implemented a scrolling mechanic in the `Tick` event. It takes the current `ScrollOffset` of the main ScrollBox and adds a `ScrollSpeed` variable multiplied by `DeltaTime`. This creates a smooth, frame-rate-independent rolling effect typically seen in films.
+    *   **Concept Art Slideshow**: To make the credits visually engaging, I added a dynamic background.
+        *   **Logic**: On `Construct`, a Timer is set to fire every 3 seconds.
+        *   **Randomization**: The `CycleConceptArt` event picks a random texture from an `ImageArray` and updates the background image (`SetBrushFromTexture`). This showcases the team's concept art alongside their names.
+    *   **Navigation**: A simple "Back" button allows the player to close the credits via `RemoveFromParent`, returning them to the main menu.
+
 
 ## Connecting (Collaboration)
 
@@ -99,3 +142,4 @@ Interactive elements like the Lever (`BP_Lever`) heavily rely on the interface s
     *   **Future Improvements**: What would you add if you had more time? (e.g., More interactive object types).
 
 - https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/
+- https://interfaceingame.com/screenshots/stray-new-zone/
