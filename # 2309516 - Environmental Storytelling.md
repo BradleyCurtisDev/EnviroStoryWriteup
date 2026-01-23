@@ -16,14 +16,34 @@
 
 *   **Genre Analysis**:
     *   At the start of the first week we each took time to look at how environments tell stories within existing games to try and emulate a similar feeling. Games that came to mind were *Control* and *What remains of Edith Finch*. 
+
+    ![Control Image](ControlFloatingBodies.webp)
+    https://www.hollywoodreporter.com/movies/movie-features/control-game-review-1234007/
+
+    ![Edith Finch Image](WhatRemainsImage.avif)
+    https://www.theguardian.com/technology/2017/apr/26/what-remains-of-edith-finch-review-giant-sparrow
+
+
     *   In Control the environment is used to build a sense of corporate dread and surrealism through scattered memos and office layouts that feel both mundane and impossible. You might find a simple sticky note that reveals a terrifying supernatural containment failure which makes the cold concrete hallways feel alive and dangerous. On the other hand Edith Finch uses every inch of the family house to tell a more intimate and personal history. Each bedroom is a time capsule tailored to a specific character where the posters on the walls and the clutter on the floor explain who they were without ever needing a line of dialogue. While Control uses the world to explain its complex lore and mechanics Edith Finch uses it to create an emotional connection to a family that is already gone.
 *   **Mechanic Research**:
-    *   Researched scanning mechanics in other games (e.g., *Death Stranding*, *No Man's Sky*).
-    *   Reference link: [Scanning Ability in 10 Minutes](https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/)
-*   **Initial Sketches**:
-    *   [Briefly describe your paper prototypes or flowcharts]
-    *   ![Image of initial sketches or paper  prototype]
+    *   When coming up with the puzzle ideas and storytelling elements I had to look into different ways a character such as a robot could interact with the environment without using common methods such as waypoints. Games like *No Mans Sky*, *Cyberpunk 2077* and *Death Stranding* all use a scanning feature to reveal hidden details about the environment and objects. 
 
+    ![No Mans Sky Scanner](NMSScanner.webp)
+    https://nomanssky.fandom.com/wiki/Analysis_Visor
+
+    *   In *No Man's Sky*, the scanner is a multi-tool utility that pulses a local area to highlight nearby resources, mission objectives, and points of interest through a visual HUD.
+
+    ![Cyberpunk Scanner](CyberpunkScan.png)
+    https://interfaceingame.com/screenshots/cyberpunk-2077-scan-results/
+
+    *   In *Cyberpunk 2077*, the scanner allows you to identify interactive objects, hackable devices, and lootable containers within your field of vision. It also provides a tactical overlay of NPCs, revealing their vulnerabilities, resistances, and any active bounties or "Wanted" statuses.
+
+    ![Death Stranding Scanner](DeathStrandingScan.jpg)
+    https://www.kojimaproductions.jp/en/DSTips
+
+    *   In *Death Stranding*, the Odradek Scanner is a pulse from the players location that analyzes the landscape to identify traversable paths, marking hazards like deep water or steep slopes with color-coded icons (blue, yellow, and red).
+
+    *   I preferred the feel of the scanner in *Death Stranding* because it provided a better sense of spacial awareness to the player especially as we decided on the game having a darker and more somber lighting scheme. I wanted the scan to also be able to highlight specific objects in the environment more closely to how *Cyberpunk 2077* does it with the deep red outlines. Finally I wanted the scan to also flow over objects as it expands outwards from the players location.
 
 ## Making (Production & Iteration)
 
@@ -46,6 +66,8 @@ The primary tool for navagating the environment is the Scanner. The scanner blue
 
 
 *   **Interaction**: To detect objects, the scanner uses a `Sphere` component. On `OnComponentBeginOverlap`, it checks if the overlapping actor implements the `BPI_Scannable` interface. If it does, the `OnScanned` function is called on that actor, allowing for distinct behaviors for different object types without hard references.
+
+![Scan In Action](ScanInAction.png)
 
 ### 2. Interactive Objects
 
@@ -92,7 +114,7 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 
 ### 4. UI 
 
-*   **New Area Popups**: In Stray, when the player enters a new area a popup will appear in which it has the areas name using the games unique font as well as an English translation below.
+*   **New Area Popups**: In Stray, when the player enters a new area a popup will appear in which it has the areas name using the games unique font as well as an English translation below. For most of the 4 weeks we did not have a popup like this and the game felt a bit empty but after adding it in, it really helped a sense of discovery and progression.
 
     ![New Area Popup](StrayAreaPopup.jpg)
     https://interfaceingame.com/screenshots/stray-new-zone/
@@ -104,6 +126,10 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
             *   **Construct**: When created, it enters a `Delay` of 5 seconds, keeping the text fully visible.
             *   **Animation**: After the delay, it plays the `FadeOut` animation, which modulates the `RenderOpacity` from 1 to 0.
             *   **Cleanup**: I used the `OnAnimationFinished` event to call `RemoveFromParent`, ensuring no invisible widgets remain in memory.
+
+            ![Popup Blueprint](AreaPopupGraph.png)
+
+            ![Popup Animation](AreaPopupAnim.png)
 
 *   **Credits Screen (`BP_Credits`)**:
     *   **Auto-Scroll**: I implemented a scrolling mechanic in the `Tick` event. It takes the current `ScrollOffset` of the main ScrollBox and adds a `ScrollSpeed` variable multiplied by `DeltaTime`. This creates a smooth, frame-rate-independent rolling effect typically seen in films.
