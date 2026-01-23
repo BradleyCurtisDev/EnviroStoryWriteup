@@ -1,0 +1,98 @@
+Begin Object Class=/Script/Engine.Material Name="M_Scan" ExportPath="/Script/Engine.Material'/Game/Static/Materials/PostProcess/M_Scan.M_Scan'"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_ScanEditorOnlyData" ExportPath="/Script/Engine.MaterialEditorOnlyData'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:M_ScanEditorOnlyData'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0" ExportPath="/Script/Engine.MaterialExpressionConstant3Vector'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionConstant3Vector_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDepthFade Name="MaterialExpressionDepthFade_0" ExportPath="/Script/Engine.MaterialExpressionDepthFade'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionDepthFade_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0" ExportPath="/Script/Engine.MaterialExpressionMultiply'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionMultiply_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0" ExportPath="/Script/Engine.MaterialExpressionOneMinus'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionOneMinus_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0" ExportPath="/Script/Engine.MaterialExpressionScalarParameter'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionScalarParameter_0'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1" ExportPath="/Script/Engine.MaterialExpressionScalarParameter'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionScalarParameter_1'"
+   End Object
+   Begin Object Name="M_ScanEditorOnlyData" ExportPath="/Script/Engine.MaterialEditorOnlyData'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:M_ScanEditorOnlyData'"
+      BaseColor=(UseConstant=True)
+      Metallic=(UseConstant=True)
+      Specular=(UseConstant=True)
+      Roughness=(UseConstant=True)
+      Normal=(UseConstant=True)
+      Tangent=(UseConstant=True)
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionMultiply'M_Scan:MaterialExpressionMultiply_0'")
+      Opacity=(Expression="/Script/Engine.MaterialExpressionOneMinus'M_Scan:MaterialExpressionOneMinus_0'")
+      OpacityMask=(UseConstant=True)
+      SubsurfaceColor=(UseConstant=True)
+      ClearCoat=(UseConstant=True)
+      ClearCoatRoughness=(UseConstant=True)
+      AmbientOcclusion=(UseConstant=True)
+      Refraction=(UseConstant=True)
+      CustomizedUVs(0)=(UseConstant=True)
+      CustomizedUVs(1)=(UseConstant=True)
+      CustomizedUVs(2)=(UseConstant=True)
+      CustomizedUVs(3)=(UseConstant=True)
+      CustomizedUVs(4)=(UseConstant=True)
+      CustomizedUVs(5)=(UseConstant=True)
+      CustomizedUVs(6)=(UseConstant=True)
+      CustomizedUVs(7)=(UseConstant=True)
+      SurfaceThickness=(UseConstant=True)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionMultiply'M_Scan:MaterialExpressionMultiply_0'","/Script/Engine.MaterialExpressionOneMinus'M_Scan:MaterialExpressionOneMinus_0'","/Script/Engine.MaterialExpressionConstant3Vector'M_Scan:MaterialExpressionConstant3Vector_0'","/Script/Engine.MaterialExpressionScalarParameter'M_Scan:MaterialExpressionScalarParameter_0'","/Script/Engine.MaterialExpressionDepthFade'M_Scan:MaterialExpressionDepthFade_0'","/Script/Engine.MaterialExpressionScalarParameter'M_Scan:MaterialExpressionScalarParameter_1'"))
+      ParameterGroupData(0)=(GroupName="None")
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0" ExportPath="/Script/Engine.MaterialExpressionConstant3Vector'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionConstant3Vector_0'"
+      Constant=(R=0.081786,G=0.406899,B=0.446181,A=1.000000)
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=ADB6276D46679319AEDCF2847D16DA83
+      Material="/Script/Engine.Material'M_Scan'"
+   End Object
+   Begin Object Name="MaterialExpressionDepthFade_0" ExportPath="/Script/Engine.MaterialExpressionDepthFade'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionDepthFade_0'"
+      FadeDistance=(Expression="/Script/Engine.MaterialExpressionScalarParameter'M_Scan:MaterialExpressionScalarParameter_1'")
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=821893D74CAFE9F8EE725CB845F69B9B
+      Material="/Script/Engine.Material'M_Scan'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0" ExportPath="/Script/Engine.MaterialExpressionMultiply'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionMultiply_0'"
+      A=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_Scan:MaterialExpressionConstant3Vector_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression="/Script/Engine.MaterialExpressionScalarParameter'M_Scan:MaterialExpressionScalarParameter_0'")
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=C3F675BA43D3B36C6614C58118DB1ACC
+      Material="/Script/Engine.Material'M_Scan'"
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0" ExportPath="/Script/Engine.MaterialExpressionOneMinus'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionOneMinus_0'"
+      Input=(Expression="/Script/Engine.MaterialExpressionDepthFade'M_Scan:MaterialExpressionDepthFade_0'")
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=AF3797F940230B54BF91028ED3DABC2F
+      Material="/Script/Engine.Material'M_Scan'"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0" ExportPath="/Script/Engine.MaterialExpressionScalarParameter'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionScalarParameter_0'"
+      DefaultValue=5.000000
+      ParameterName="Scan_Glow"
+      ExpressionGUID=4B2E0E5142A755C8E7C0ACBB68B83255
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=C16C764142AEB49781590194D475F38F
+      Material="/Script/Engine.Material'M_Scan'"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1" ExportPath="/Script/Engine.MaterialExpressionScalarParameter'/Game/Static/Materials/PostProcess/M_Scan.M_Scan:MaterialExpressionScalarParameter_1'"
+      DefaultValue=50.000000
+      ParameterName="Scan_Opacity"
+      ExpressionGUID=350131494232E1E3D8A377AB118B7345
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=227FA15C4D73F8A9BD3343AA54596FB2
+      Material="/Script/Engine.Material'M_Scan'"
+   End Object
+   BlendMode=BLEND_Translucent
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   TwoSided=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=64B4E290453730E1C0CEC2B7966C7AE9
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_ScanEditorOnlyData'"
+   LightingGuid=A39C6FCE4866665930D4918841AC14E8
+End Object

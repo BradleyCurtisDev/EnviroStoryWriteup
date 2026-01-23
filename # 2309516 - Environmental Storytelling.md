@@ -15,31 +15,34 @@
     ![Image of Figma board](FigmaBoard.png)
 
 *   **Genre Analysis**:
-    *   At the start of the first week we each took time to look at how environments tell stories within existing games to try and emulate a similar feeling. Games that came to mind were *Control* and *What remains of Edith Finch*. 
+    *   At the start of the first week we each took time to look at how environments tell stories within existing games to try and emulate a similar feeling. Games that came to mind were *Control* (Control - Remedy Entertaiment, s.d.) and *What remains of Edith Finch* (Edith Finch, s.d.). 
 
     ![Control Image](ControlFloatingBodies.webp)
-    https://www.hollywoodreporter.com/movies/movie-features/control-game-review-1234007/
+
+    (Control - Remedy Entertaiment, s.d.)
 
     ![Edith Finch Image](WhatRemainsImage.avif)
-    https://www.theguardian.com/technology/2017/apr/26/what-remains-of-edith-finch-review-giant-sparrow
+
+    (Edith Finch, s.d.)
 
 
-    *   In Control the environment is used to build a sense of corporate dread and surrealism through scattered memos and office layouts that feel both mundane and impossible. You might find a simple sticky note that reveals a terrifying supernatural containment failure which makes the cold concrete hallways feel alive and dangerous. On the other hand Edith Finch uses every inch of the family house to tell a more intimate and personal history. Each bedroom is a time capsule tailored to a specific character where the posters on the walls and the clutter on the floor explain who they were without ever needing a line of dialogue. While Control uses the world to explain its complex lore and mechanics Edith Finch uses it to create an emotional connection to a family that is already gone.
+    *   In *Control* the environment is used to build a sense of corporate dread and surrealism through scattered memos and office layouts that feel both mundane and impossible. You might find a simple sticky note that reveals a terrifying supernatural containment failure which makes the cold concrete hallways feel alive and dangerous. On the other hand Edith Finch uses every inch of the family house to tell a more intimate and personal history. Each bedroom is a time capsule tailored to a specific character where the posters on the walls and the clutter on the floor explain who they were without ever needing a line of dialogue. While *Control* uses the world to explain its complex lore and mechanics Edith Finch uses it to create an emotional connection to a family that is already gone.
 *   **Mechanic Research**:
-    *   When coming up with the puzzle ideas and storytelling elements I had to look into different ways a character such as a robot could interact with the environment without using common methods such as waypoints. Games like *No Mans Sky*, *Cyberpunk 2077* and *Death Stranding* all use a scanning feature to reveal hidden details about the environment and objects. 
+    *   When coming up with the puzzle ideas and storytelling elements I had to look into different ways a character such as a robot could interact with the environment without using common methods such as waypoints. Games like *No Mans Sky* (Analysis Visor - No Man’s Sky Wiki, s.d.), *Cyberpunk 2077* (Scan results - Cyberpunk 2077, s.d.) and *Death Stranding* (DEATH STRANDING Tips: Connecting the Eastern Region | Kojima Productions, s.d.) all use a scanning feature to reveal hidden details about the environment and objects. 
 
     ![No Mans Sky Scanner](NMSScanner.webp)
-    https://nomanssky.fandom.com/wiki/Analysis_Visor
+
+    (Analysis Visor - No Man’s Sky Wiki, s.d.)
 
     *   In *No Man's Sky*, the scanner is a multi-tool utility that pulses a local area to highlight nearby resources, mission objectives, and points of interest through a visual HUD.
 
     ![Cyberpunk Scanner](CyberpunkScan.png)
-    https://interfaceingame.com/screenshots/cyberpunk-2077-scan-results/
+    (Scan results - Cyberpunk 2077, s.d.)
 
     *   In *Cyberpunk 2077*, the scanner allows you to identify interactive objects, hackable devices, and lootable containers within your field of vision. It also provides a tactical overlay of NPCs, revealing their vulnerabilities, resistances, and any active bounties or "Wanted" statuses.
 
     ![Death Stranding Scanner](DeathStrandingScan.jpg)
-    https://www.kojimaproductions.jp/en/DSTips
+    (DEATH STRANDING Tips: Connecting the Eastern Region | Kojima Productions, s.d.)
 
     *   In *Death Stranding*, the Odradek Scanner is a pulse from the players location that analyzes the landscape to identify traversable paths, marking hazards like deep water or steep slopes with color-coded icons (blue, yellow, and red).
 
@@ -146,49 +149,71 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 ## Connecting (Collaboration)
 
 ### Teamwork & Workflow
-"How did you work with the team?"
+
 
 *   **Communication**:
-    *   Describe the use of Discord/Slack for daily communication and "pivot-point" discussions.
-    *   ![Screenshot of a key Discord discussion or decision]
-*   **Agile Methodology**:
-    *   Evidence of Sprint Reviews or Trello/Jira board usage.
-    *   ![Screenshot of Trello/Jira board showing task progression]
+    *   During the in-person lessons we would communicate needs for the upcoming week and tasks that urgently needed completion for others to progress too.
+
+    * Every Sunday at 5PM we had a Discord call where we could playtest the game and take notes on what went well for the week and what needs to be improved.
+
+    * I took on managing the Github repository for the project and ensuring that all team members were up to date with the latest changes. I also helped resolve any merge conflicts that arose. At the start of the project I asked everyone to send a message on the Discord server with the name of the branch they were working on and what they were working on. This helped me keep track of what everyone was working on and what needed to be merged.
+
+    * In the last 2 weeks of the project we started having an issue where people wouldnt say what they were working on and they didnt pull from the most recent main branch. This caused a lot of merge conflicts and issues with the project. 
+
+    ![Merge Conflict](MergeConflicts.webp)
+
+    ![Errors](Errors2.webp)
+
+*   **Agile Methodology**: 
+    *   We used Trello and Figma to plan and track our progress. 
+
+    ![Trello Board](image.png)
+
+    ![Figma Board](FigmaBoard.png)
+
 *   **File Management**:
-    *   Adherence to naming conventions (e.g., `BP_Name`, `M_Name`) to ensure seamless integration.
-    *   Mention any merge conflict resolutions or version control practices.
+    *   When I created the project I wanted to have clear file management standards to prevent clutter and confusion. We organized the main Content folder into clear subdirectories for Blueprints, Maps, Materials, Assets, and UI. I also tried to stick to Unreal Engine's standard naming conventions using prefixes like `BP_` for Blueprints (e.g., `BP_Generator`), `M_` for Materials, and `WBP_` for Widgets. This consistency combined with the structured folder hierarchy ensured that the project remained scalable and that files were correctly linked and easily accessible for everyone on the team.
+
+        ![File Management](FileManagement.png)
 
 ## Situating & Synthesizing (Reflection - Context & Conclusion)
 
 ### Reflection & Justification
-"What is the final result?" and "Why did you make these choices?"
 
-*   **Final Result**:
-    *   [Summarize the final look and feel of the project]
-    *   ![Before and After comparison screenshots of a key area]
+
 *   **Narrative Justification**:
-    *   Explain *why* the scanner was the right choice for this story (e.g., "revealing the past").
-    *   Explain how the visual style supports the mood (e.g., "cold, abandoned atmosphere").
+    *   I chose the scanner as the main mechanic because it felt like the perfect bridge between our robot protagonist and the stories of the humans who used to work here. It turns "revealing the past" into an actual game mechanic, letting players dig up hidden stories just by being curious, rather than forcing them to read big blocks of text.
+    *   For the visuals, we really wanted to nail that "cold, abandoned atmosphere" to make the player feel truly isolated. We stuck to harsh, cool lighting for the factory to make it feel dead and unfeeling, which contrasts really nicely with the warm, safe glow of the scanner. It’s like the robot is literally shedding light on the dark, forgotten world.
+
+
 *   **Critical Evaluation**:
-    *   **Successes**: What went well? (e.g., The modularity of the scanner system).
-    *   **Challenges**: What was difficult? (e.g., Optimizing the transparency shaders).
-    *   **Future Improvements**: What would you add if you had more time? (e.g., More interactive object types).
+    *   **Successes**: I’m really happy with how all the different parts of the project came together in the end. The UI elements, specific assets, materials, and game mechanics didn't just stand on their own, they worked together perfectly to convey our original idea. It was satisfying to see the project turn out exactly how we wanted, with every layer adding to that final feel.
+
+    *   **Challenges**: The biggest setbacks from the project were definitely issues with GitHub. We constantly had to deal with build errors that kept on coming back after each new merge happened to the git. It was incredibly frustrating trying to keep the project stable when random errors would pop up every time we tried to combine our work, and I ended up spending a lot of time just fixing the repo instead of working on the actual game.
+
+    *   **Future Improvements**: If I were to do this project again, I would definitely create a dedicated document outlining clear GitHub best practices for the team. Since the merge conflicts and build errors were such a huge setback, having a guide on how to pull, commit, and resolving conflicts properly would have saved us so much time and frustration. Also, if I had more time, I would have liked to jump in and help out more with the other roles. I noticed some people really struggled getting their assets and work into the game on time, and being able to support them directly would have made the whole production process smoother.
 
 
 ### References
 
-- Turbulent_Sun_9378 (2025) Scanning ability in 10 minutes! : ). [Reddit Post] At: https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/ (Accessed  23/01/2026).
+- Analysis Visor - No Man’s Sky Wiki (s.d.) At: https://nomanssky.fandom.com/wiki/Analysis_Visor (Accessed 18/12/2025).
 
-- New zone - Stray (s.d.) At: https://interfaceingame.com/screenshots/stray-new-zone/ (Accessed  23/01/2026).
+- Control - Remedy Entertaiment (s.d.) At: https://www.remedygames.com/games/control (Accessed 17/12/2025).
 
-- Ramanan, C. (2017) 'What Remains of Edith Finch review: magical ode to the joy of storytelling' In: The Guardian 26/04/2017 At: https://www.theguardian.com/technology/2017/apr/26/what-remains-of-edith-finch-review-giant-sparrow (Accessed  23/01/2026).
+- DEATH STRANDING Tips: Connecting the Eastern Region | Kojima Productions (s.d.) At: https://www.kojimaproductions.jp/en/DSTips (Accessed 17/12/2025).
 
-- Keeley, P. (2019) ‘Control’: Game Review. At: https://www.hollywoodreporter.com/movies/movie-features/control-game-review-1234007/ (Accessed  23/01/2026).
+- Edith Finch (s.d.) At: https://www.giantsparrow.com/games/finch/ (Accessed 17/12/2025).
 
-- Analysis Visor - No Man’s Sky Wiki (s.d.) At: https://nomanssky.fandom.com/wiki/Analysis_Visor (Accessed  23/01/2026).
+- Keeley, P. (2019) ‘Control’: Game Review. At: https://www.hollywoodreporter.com/movies/movie-features/control-game-review-1234007/ (Accessed 17/12/2025).
 
-- DEATH STRANDING Tips: Connecting the Eastern Region | Kojima Productions (s.d.) At: https://www.kojimaproductions.jp/en/DSTips (Accessed  23/01/2026).
+- New zone - Stray (s.d.) At: https://interfaceingame.com/screenshots/stray-new-zone/ (Accessed 17/12/2025).
 
-- Scan results - Cyberpunk 2077 (s.d.) At: https://interfaceingame.com/screenshots/cyberpunk-2077-scan-results/ (Accessed  23/01/2026).
+- Ramanan, C. (2017) 'What Remains of Edith Finch review: magical ode to the joy of storytelling' In: The Guardian 26/04/2017 At: https://www.theguardian.com/technology/2017/apr/26/what-remains-of-edith-finch-review-giant-sparrow (Accessed 17/12/2025).
 
-- 
+- Scan results - Cyberpunk 2077 (s.d.) At: https://interfaceingame.com/screenshots/cyberpunk-2077-scan-results/ (Accessed 17/12/2025).
+
+- Turbulent_Sun_9378 (2025) Scanning ability in 10 minutes! : ). [Reddit Post] At: https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/ (Accessed 06/01/2026).
+
+This document was modified with the use of *Google Gemini 3 Pro*
+
+(Google Gemini, s.d.) At: https://gemini.google.com/
