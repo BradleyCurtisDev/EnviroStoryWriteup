@@ -174,5 +174,21 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
     *   **Challenges**: What was difficult? (e.g., Optimizing the transparency shaders).
     *   **Future Improvements**: What would you add if you had more time? (e.g., More interactive object types).
 
-- https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/
-- https://interfaceingame.com/screenshots/stray-new-zone/
+
+### References
+
+- Turbulent_Sun_9378 (2025) Scanning ability in 10 minutes! : ). [Reddit Post] At: https://www.reddit.com/r/unrealengine/comments/1m9dzu9/scanning_ability_in_10_minutes/ (Accessed  23/01/2026).
+
+- New zone - Stray (s.d.) At: https://interfaceingame.com/screenshots/stray-new-zone/ (Accessed  23/01/2026).
+
+- Ramanan, C. (2017) 'What Remains of Edith Finch review: magical ode to the joy of storytelling' In: The Guardian 26/04/2017 At: https://www.theguardian.com/technology/2017/apr/26/what-remains-of-edith-finch-review-giant-sparrow (Accessed  23/01/2026).
+
+- Keeley, P. (2019) ‘Control’: Game Review. At: https://www.hollywoodreporter.com/movies/movie-features/control-game-review-1234007/ (Accessed  23/01/2026).
+
+- Analysis Visor - No Man’s Sky Wiki (s.d.) At: https://nomanssky.fandom.com/wiki/Analysis_Visor (Accessed  23/01/2026).
+
+- DEATH STRANDING Tips: Connecting the Eastern Region | Kojima Productions (s.d.) At: https://www.kojimaproductions.jp/en/DSTips (Accessed  23/01/2026).
+
+- Scan results - Cyberpunk 2077 (s.d.) At: https://interfaceingame.com/screenshots/cyberpunk-2077-scan-results/ (Accessed  23/01/2026).
+
+- 
