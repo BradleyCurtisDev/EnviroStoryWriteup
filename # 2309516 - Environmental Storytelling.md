@@ -2,6 +2,8 @@
 
 ![Image of factory floor](FactoryFloor.png)
 
+*Figure 1: Final render of the factory floor environment.*
+
 ## Exploring (Research & Inquiry)
 
 
@@ -14,16 +16,22 @@
 
     ![Image of Figma board](FigmaBoard.png)
 
+    *Figure 2: The team's Mood Board and Storyboard on Figma.*
+
 *   **Genre Analysis**:
     *   At the start of the first week we each took time to look at how environments tell stories within existing games to try and emulate a similar feeling. Games that came to mind were *Control* (Control - Remedy Entertaiment, s.d.) and *What remains of Edith Finch* (Edith Finch, s.d.). 
 
     ![Control Image](ControlFloatingBodies.webp)
 
     (Control - Remedy Entertaiment, s.d.)
+    
+    *Figure 3: Floating bodies in Control with its uncanny atmosphere.*
 
-    ![Edith Finch Image](WhatRemainsImage.avif)
+    ![What Remains Image](WhatRemainsImage.png)
 
     (Edith Finch, s.d.)
+
+    *Figure 4: A detailed bedroom environment in What Remains of Edith Finch.*
 
 
     *   In *Control* the environment is used to build a sense of corporate dread and surrealism through scattered memos and office layouts that feel both mundane and impossible. You might find a simple sticky note that reveals a terrifying supernatural containment failure which makes the cold concrete hallways feel alive and dangerous. On the other hand Edith Finch uses every inch of the family house to tell a more intimate and personal history. Each bedroom is a time capsule tailored to a specific character where the posters on the walls and the clutter on the floor explain who they were without ever needing a line of dialogue. While *Control* uses the world to explain its complex lore and mechanics Edith Finch uses it to create an emotional connection to a family that is already gone.
@@ -34,15 +42,21 @@
 
     (Analysis Visor - No Man’s Sky Wiki, s.d.)
 
+    *Figure 5: The Analysis Visor scanning interface in No Man's Sky.*
+
     *   In *No Man's Sky*, the scanner is a multi-tool utility that pulses a local area to highlight nearby resources, mission objectives, and points of interest through a visual HUD.
 
     ![Cyberpunk Scanner](CyberpunkScan.png)
     (Scan results - Cyberpunk 2077, s.d.)
 
+    *Figure 6: Scanning interactive objects in Cyberpunk 2077.*
+
     *   In *Cyberpunk 2077*, the scanner allows you to identify interactive objects, hackable devices, and lootable containers within your field of vision. It also provides a tactical overlay of NPCs, revealing their vulnerabilities, resistances, and any active bounties or "Wanted" statuses.
 
     ![Death Stranding Scanner](DeathStrandingScan.jpg)
     (DEATH STRANDING Tips: Connecting the Eastern Region | Kojima Productions, s.d.)
+
+    *Figure 7: The Odradek Scanner revealing terrain traversal in Death Stranding.*
 
     *   In *Death Stranding*, the Odradek Scanner is a pulse from the players location that analyzes the landscape to identify traversable paths, marking hazards like deep water or steep slopes with color-coded icons (blue, yellow, and red).
 
@@ -61,16 +75,24 @@ The primary tool for navagating the environment is the Scanner. The scanner blue
 
 ![BP_Scanner](ScannerBlueprint.png)
 
+*Figure 8: The BP_Scanner Event Graph controlling the scan logic.*
+
 ![BP_Scanner Timeline](ScannerTimeline.png)
+
+*Figure 9: The Timeline curve controlling the scan radius expansion.*
 
 *   **Visuals**: The timeline updates the actor's scale (`SetActorScale3D`) to simulate the expanding wave. Simultaneously, it drives a Scalar Parameter `Scan_Opacity` on the material `M_Scan`. This material uses a Depth Fade and Emissive Color (`Scan_Glow`) to create the holographic, "x-ray" aesthetic that reveals hidden geometry.
 
 ![M_Scan Material](M_Scan.png)
 
+*Figure 10: The M_Scan material graph creating the holographic effect.*
+
 
 *   **Interaction**: To detect objects, the scanner uses a `Sphere` component. On `OnComponentBeginOverlap`, it checks if the overlapping actor implements the `BPI_Scannable` interface. If it does, the `OnScanned` function is called on that actor, allowing for distinct behaviors for different object types without hard references.
 
 ![Scan In Action](ScanInAction.png)
+
+*Figure 11: In-game view of the scanner highlighting the environment.*
 
 ### 2. Interactive Objects
 
@@ -83,6 +105,9 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
     *   **Tick Update**: In the `ReceiveTick` event, the system continuously updates the Physics Handle's target location (`SetTargetLocationAndRotation`) to match the `HoldLocation`. This creates a smooth, laggy "towing" effect where the object physically follows the player's view rather than snapping rigidly.
 
     ![Third Person Character Interact](BP_ThirdPersonCharacterBlueprint.png)
+
+    *Figure 12: Interaction and physics logic in BP_ThirdPersonCharacter.*
+
 *   **Interface Implementation**: `BP_Lever` implements the `BPI_Scannable` interface.
 
 *   **Feedback**: When the `OnScanned` event is triggered by the scanner, the lever executes its specific feedback logic. In this case, it calls `SetOverlayMaterial` on its Static Mesh, applying `M_HighlightItem`. This visual cue immediately informs the player that the object is significant and interactive.
@@ -92,7 +117,11 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 
 ![Image of early puzzle](EarlyCrane.png)
 
+*Figure 13: Early prototype of the Crane puzzle area.*
+
 ![CranePuzzleFinal](CranePuzzleFinal.png)
+
+*Figure 14: Final iteration of the Crane Puzzle environment.*
 
 
 *   **The Generator (`BP_Generator`)**:
@@ -100,12 +129,18 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 
     ![Generator Blueprint](GeneratorBlueprint.png)
 
+    *Figure 15: The Generator blueprint logic for counting levers.*
+
     ![Generator blueprint view](GeneratorBlueprintView.png)
+
+    *Figure 16: Viewport representation of the Generator actor.*
 
 
 *   **Visual Feedback**: To communicate progress without UI, the blueprint toggles the visibility of static mesh components (`Lever1`, `Lever2`, `Lever3`) as the count increases. This diegetic feedback confirms successful placement to the player.
 
     ![Generator with levers in](LeversInGenerator.png)
+
+    *Figure 17: Visual feedback of the Generator with all levers placed.*
 
 *   **Consistency**: Like `BP_Lever`, the Generator implements `BPI_Scannable`. Its `OnScanned` event applies the same `M_HighlightItem` overlay, establishing a consistent visual language for interactable objects.
 
@@ -115,6 +150,8 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
     *   **Interpolation**: In `ReceiveTick`, it uses `RInterpTo` (Rotation Interpolation) to smoothly rotate the arm towards `TargetRotation` at a defined speed. This avoids jarring "snapping" movement, preserving immersion.
     ![BP_Crane Event Graph showing ReceiveTick and RInterpTo](CraneBlueprint.png)
 
+    *Figure 18: Rotation interpolation logic in BP_Crane.*
+
 ### 4. UI 
 
 *   **New Area Popups**: In Stray, when the player enters a new area a popup will appear in which it has the areas name using the games unique font as well as an English translation below. For most of the 4 weeks we did not have a popup like this and the game felt a bit empty but after adding it in, it really helped a sense of discovery and progression.
@@ -122,7 +159,12 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
     ![New Area Popup](StrayAreaPopup.jpg)
     https://interfaceingame.com/screenshots/stray-new-zone/
 
+    *Figure 19: New area popup example from Stray.*
+
     ![Ingame Area Popup](FactoryFloor.png)
+
+    *Figure 20: Our custom Area Popup implemented in-game.*
+
     *   **Implementation**:
         *   **Trigger (`BP_OfficeUI`)**: I created an actor that functions as a trigger. On `ReceiveActorBeginOverlap`, it checks if the overlapping actor is the player (`BP_ThirdPersonCharacter`). If confirmed, it creates the `WBP_Office` widget, adds it to the viewport, and immediately calls `DestroyActor` on itself. This ensures the popup only triggers once per playthrough.
         *   **Widget Logic (`WBP_Office`)**: The widget handles its own lifecycle to keep the implementation clean.
@@ -132,7 +174,11 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 
             ![Popup Blueprint](AreaPopupGraph.png)
 
+            *Figure 21: Blueprint logic for WBP_Office.*
+
             ![Popup Animation](AreaPopupAnim.png)
+
+            *Figure 22: Fade-out animation for the popup widget.*
 
 *   **Credits Screen (`BP_Credits`)**:
     *   **Auto-Scroll**: I implemented a scrolling mechanic in the `Tick` event. It takes the current `ScrollOffset` of the main ScrollBox and adds a `ScrollSpeed` variable multiplied by `DeltaTime`. This creates a smooth, frame-rate-independent rolling effect typically seen in films.
@@ -143,7 +189,11 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 
     ![Credits Screen Blueprint](CreditsBlueprint.png)
 
+    *Figure 23: Blueprint graph for the scrolling Credits Screen.*
+
     ![Credits Screen](Credits.png)
+
+    *Figure 24: The final Credits Screen UI with scrolling text.*
 
 
 ## Connecting (Collaboration)
@@ -162,19 +212,29 @@ To bridge the gap between "looking" and "doing", I implemented a physics-based i
 
     ![Merge Conflict](MergeConflicts.webp)
 
+    *Figure 25: Example of a merge conflict faced during development.*
+
     ![Errors](Errors2.webp)
+
+    *Figure 26: Build errors encountered in Unreal Engine.*
 
 *   **Agile Methodology**: 
     *   We used Trello and Figma to plan and track our progress. 
 
     ![Trello Board](image.png)
 
+    *Figure 27: The Trello board used for Agile task management.*
+
     ![Figma Board](FigmaBoard.png)
+
+    *Figure 28: The Figma board used for planning and wireframing.*
 
 *   **File Management**:
     *   When I created the project I wanted to have clear file management standards to prevent clutter and confusion. We organized the main Content folder into clear subdirectories for Blueprints, Maps, Materials, Assets, and UI. I also tried to stick to Unreal Engine's standard naming conventions using prefixes like `BP_` for Blueprints (e.g., `BP_Generator`), `M_` for Materials, and `WBP_` for Widgets. This consistency combined with the structured folder hierarchy ensured that the project remained scalable and that files were correctly linked and easily accessible for everyone on the team.
 
         ![File Management](FileManagement.png)
+
+        *Figure 29: File structure organization in the Content Browser.*
 
 ## Situating & Synthesizing (Reflection - Context & Conclusion)
 
